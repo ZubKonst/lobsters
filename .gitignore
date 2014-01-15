@@ -35,3 +35,6 @@ config/unicorn.conf.rb
 
 # RoR IDE RubyMine
 .idea/
+
+# gem simplecov
+coverage
