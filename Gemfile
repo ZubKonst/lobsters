@@ -35,7 +35,12 @@ gem "thinking-sphinx", "~> 3.0.6"
 
 gem "mail"
 
+# fast json
 gem "oj"
+
+group :development do
+  gem 'quiet_assets'
+end
 
 group :test, :development do
   gem "rspec-rails", "~> 2.6"
